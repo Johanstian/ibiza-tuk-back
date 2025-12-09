@@ -6,7 +6,7 @@ const userRoutes = require("./routes/userRoutes");
 const app = express();
 
 // Configuración
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 
 // Connect to MongoDB
 connectDB();
